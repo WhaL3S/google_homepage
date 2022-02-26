@@ -46,8 +46,11 @@ img.dots {
 	margin: 4px -6px 0px 5px;
 }
 
+/*When you try to do make some changes in border or shadow,*/
+/*be sure that the nearby located blocks won't change their position,*/
+/*or just try to change some parameters of block to get result like nothing nearby has changed, only the triggered block*/
+
 /*Styling the case when you hover the image of dots*/
-/*When you try to do make some changes in border or shadow, be sure that the nearby located blocks won't change their position, or just try to change some parameters of block to get result like nothing nearby has changed, only the triggered block*/
 
 img.dots:hover {
 	border: 3px solid #f0f1f1;
