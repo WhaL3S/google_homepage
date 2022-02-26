@@ -2,6 +2,8 @@
 	position: relative;
 }
 
+/*Header*/
+
 ul {
 	display: flex;
 	font-family: arial,sans-serif;
@@ -17,15 +19,20 @@ ul {
 	font-size: 13px;
 }
 
+/*Styling blocks of texts of the list*/
 
 #header ul li {
 	margin: -1px 8px;
 }
 
+/*Styling the text inside the blocks*/
+
 #header li a {
   	color: #666;
   	text-decoration: none;
 }
+
+/*Styling the case when you hover the text inside the blocks*/
 
 #header li a:hover {
   	text-decoration: underline;
@@ -38,6 +45,9 @@ img.dots {
 	border-radius: 50px;
 	margin: 4px -6px 0px 5px;
 }
+
+/*Styling the case when you hover the image of dots*/
+/*When you try to do make some changes in border or shadow, be sure that the nearby located blocks won't change their position, or just try to change some parameters of block to get result like nothing nearby has changed, only the triggered block*/
 
 img.dots:hover {
 	border: 3px solid #f0f1f1;
@@ -52,10 +62,14 @@ img.avatar {
 	width: 32px;
 }
 
+/*Styling the case when you hover the avatar image*/
+
 img.avatar:hover {
 	border: 5px solid #f0f1f1;
 	margin: 2px -3px -2px -2px;
 }
+
+/*Body part*/
 
 #logo {
 	margin-top: 207px;
@@ -69,6 +83,8 @@ img.avatar:hover {
 	height: 44px;
 	display: flex;
 }
+
+/*Styling the case when you hover the search box*/
 
 #search-box:hover {
 	box-shadow: 0px 1px 3px 1px lightgrey;  
@@ -96,6 +112,8 @@ img.avatar:hover {
    margin: 7px;
 }
 
+/*Styling the case when you click or trigger the search line (it is inside the search box)*/
+
 input#search-line:focus {
   	border-color: none;
   	outline: none;
@@ -117,11 +135,15 @@ input[type="submit"] {
 	border-radius: 4px;
 }
 
+/*Styling the case when you click or trigger the buttons of "Google Search" and "I'm Feeling Lucky"*/
+
 input[type="submit"]:hover {
 	border: 1px solid #dadce0;
 	border-bottom: 2px solid #e9e8e9;
 	margin: 10px 6px;
 }
+
+/*Footer*/
 
 #footer {
 	background-color: #F2F2F2;
@@ -153,6 +175,8 @@ input[type="submit"]:hover {
   	color: #70757a;
   	text-decoration: none;
 }
+
+/*Styling the case when you hover any text in the footer text blocks*/
 
 #footer li a:hover {
   	text-decoration: underline;
