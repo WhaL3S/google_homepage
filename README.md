@@ -1,2 +1,2 @@
-# google_homepage
+# Google Homepage
 A copy of Google Homepage (visually)
