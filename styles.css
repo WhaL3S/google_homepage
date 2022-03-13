@@ -80,8 +80,7 @@ img.avatar:hover {
 
 #search-box {
 	margin-top: 21px;
-	width: 100%;
-	max-width: 580px;
+	width: 580px;
 	border: 1px solid #D9D9D9;
 	border-radius: 100px;
 	height: 44px;
