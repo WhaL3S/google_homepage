@@ -98,13 +98,13 @@ img.avatar:hover {
 #search-icon {
 	background: url("images/search-icon.png");
 	height: 30px;
-   width: 25px;
-   margin: 10px;
+   	width: 25px;
+   	margin: 10px;
 }
 
 #search-line {
 	margin: 0 5px;
-	width: 475px;
+	width: 80%;
 	border: none;
 	font-size: 16px;
 }
@@ -112,8 +112,8 @@ img.avatar:hover {
 #mic-icon {
 	background: url("images/mic-icon.png");
 	height: 30px;
-   width: 20px;
-   margin: 7px;
+   	width: 20px;
+   	margin: 7px;
 }
 
 /*Styling the case when you click or trigger the search line (it is inside the search box)*/
